@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SURE Workshop</title>
-  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/assets/main.css" />
   <style>
     body {
       font-family: sans-serif;
@@ -13,31 +13,107 @@
       margin: 0;
       padding: 2rem;
     }
-    .container { max-width: 800px; margin: auto; }
-    .tabs nav { background: #dde4ea; padding: 0.5rem; border-radius: 0.375rem; display: flex; gap: 1rem; }
-    .tabs nav a { text-decoration: none; color: #102030; font-weight: bold; }
-    .tab-content { display: none; margin-top: 1rem; }
-    .tab-content.active { display: block; }
-    .card { background: white; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-top: 1rem; }
-    .bg-lightblue { background-color: #e5f3ff; }
-    .bg-lightyellow { background-color: #fef3c7; }
-    .bg-lightgray { background-color: #e2e8f0; }
-    .bg-lightgreen { background-color: #d1fae5; }
-    .session-block { padding: 1rem; border-radius: 0.5rem; margin-bottom: 1rem; }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .tabs nav {
+      background: #dde4ea;
+      padding: 0.75rem;
+      border-radius: 0.75rem;
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .tabs nav a {
+      text-decoration: none;
+      color: #102030;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      transition: background-color 0.2s;
+    }
+
+    .tabs nav a:hover {
+      background-color: #cbd5e1;
+    }
+
+    .tabs nav a.active {
+      background-color: white;
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .tab-content {
+      display: none;
+      margin-top: 1rem;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      margin-top: 1rem;
+    }
+
+    .bg-lightblue {
+      background-color: #e5f3ff;
+    }
+
+    .bg-lightyellow {
+      background-color: #fef3c7;
+    }
+
+    .bg-lightgray {
+      background-color: #e2e8f0;
+    }
+
+    .bg-lightgreen {
+      background-color: #d1fae5;
+    }
+
+    .session-block {
+      padding: 1rem;
+      border-radius: 0.5rem;
+      margin-bottom: 1rem;
+    }
   </style>
   <script>
     window.addEventListener('DOMContentLoaded', () => {
       const triggers = document.querySelectorAll('[data-tab]');
       const contents = document.querySelectorAll('.tab-content');
+      const storedTab = localStorage.getItem('activeTab') || 'home';
+
+      function activateTab(tabName) {
+        contents.forEach(c => c.classList.remove('active'));
+        triggers.forEach(t => t.classList.remove('active'));
+
+        const activeContent = document.getElementById(tabName);
+        const activeTrigger = document.querySelector(`[data-tab="${tabName}"]`);
+
+        if (activeContent && activeTrigger) {
+          activeContent.classList.add('active');
+          activeTrigger.classList.add('active');
+          localStorage.setItem('activeTab', tabName);
+        }
+      }
+
+      activateTab(storedTab);
+
       triggers.forEach(trigger => {
         trigger.addEventListener('click', (e) => {
           e.preventDefault();
           const target = trigger.getAttribute('data-tab');
-          contents.forEach(c => c.classList.remove('active'));
-          document.getElementById(target).classList.add('active');
+          activateTab(target);
         });
       });
-      document.querySelector('[data-tab="home"]').click();
     });
   </script>
 </head>
@@ -60,7 +136,7 @@
         <a href="#" data-tab="program">Program</a>
       </nav>
 
-      <div id="home" class="tab-content">
+      <div id="home" class="tab-content active">
         <div class="card">
           <h2>Welcome to SURE!</h2>
           <p>SURE is a workshop focused on advancing the science of software reverse engineering and improving how we understand complex binaries and source code. Join us to share insights, tools, and methods that help unravel the toughest code.</p>
@@ -148,7 +224,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </body>
