@@ -1,7 +1,7 @@
 ---
-layout: participants
+layout: organizers
 title: Organizers
 description: List of organizers 
-navorder: 4
+navorder: 3
 ---
 
