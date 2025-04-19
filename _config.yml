@@ -1,0 +1,30 @@
+title: SURE Workshop
+description: The Workshop on Software Understanding and Reverse Engineering
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Default layout
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+
+# Collections
+collections:
+  years:
+    output: true
+    permalink: /:path/
+
+# Include directories
+include:
+  - assets
+
+# Exclude the year directories from processing
+exclude:
+  - 2025 
