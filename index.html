@@ -14,13 +14,17 @@
       padding: 2rem;
     }
 
+    h1, h2, h3, h4, h5, h6 {
+      color: #0d344a;
+    }
+
     .container {
       max-width: 800px;
       margin: auto;
     }
 
     .tabs nav {
-      background: #dde4ea;
+      background: #0d344a;
       padding: 0.75rem;
       border-radius: 0.75rem;
       display: flex;
@@ -29,19 +33,47 @@
 
     .tabs nav a {
       text-decoration: none;
-      color: #102030;
+      color: white;
       font-weight: bold;
       padding: 0.5rem 1rem;
       border-radius: 0.5rem;
       transition: background-color 0.2s;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 640px) {
+      .tabs nav {
+        flex-direction: column;
+        gap: 0.25rem;
+      }
+
+      .tabs nav a {
+        text-align: center;
+        padding: 0.75rem 1rem;
+      }
+
+      .container {
+        padding: 1rem;
+      }
+
+      .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.5rem;
+      }
+
+      .header-container img {
+        height: 4rem;
+      }
     }
 
     .tabs nav a:hover {
-      background-color: #cbd5e1;
+      background-color: rgba(255, 255, 255, 0.1);
     }
 
     .tabs nav a.active {
-      background-color: white;
+      background-color: rgba(255, 255, 255, 0.2);
       border-radius: 0.5rem;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     }
@@ -120,11 +152,11 @@
 </head>
 <body>
   <div class="container">
-    <div style="display: flex; align-items: center; gap: 1rem;">
+    <div class="header-container" style="display: flex; align-items: center; gap: 1rem;">
       <img src="./sure_logo.png" alt="SURE logo" style="height: 6rem; width: auto;" />
       <div>
         <h1 style="font-size: 2.25rem; font-weight: bold;">SURE</h1>
-        <p style="color: #304050; font-size: 1.125rem;">Software Understanding and Reverse Engineering Workshop</p>
+        <p style="color: #304050; font-size: 1.125rem; margin-top: -1rem;">The Workshop on Software Understanding and Reverse Engineering</p>
       </div>
     </div>
 
@@ -156,7 +188,7 @@
           <h2>Call for Papers</h2>
           <p>
 
-            In the modern age of AI-empowered code generation, the rate at which we create software has accelerated dramatically. Yet, our ability to understand software has not matched in pace. Federal agencies, such as DARPA, have noticed, issuing a call to action to “close the software understanding gap” with the help of both academia and industry. In doing so, millions of dollars have been committed to funding research that seeks to understand programs for goals such as binary patching, performance enhancement, and, in DARPA and ARPA-H's AIxCC with $29 million of prize money at stake—autonomous reasoning on large open-source projects. Put simply, both the impact and need for software understanding, at the binary and source level, are at an all-time high.</p>
+            In the modern age of AI-empowered code generation, the rate at which we create software has accelerated dramatically. Yet, our ability to understand software has not matched in pace. Federal agencies, such as DARPA, have noticed, issuing a call to action to "close the software understanding gap" with the help of both academia and industry. In doing so, millions of dollars have been committed to funding research that seeks to understand programs for goals such as binary patching, performance enhancement, and, in DARPA and ARPA-H's AIxCC with $29 million of prize money at stake—autonomous reasoning on large open-source projects. Put simply, both the impact and need for software understanding, at the binary and source level, are at an all-time high.</p>
             
             <p>
             Research on software understanding and reverse engineering often has difficulty progressing due to a lack of definitions, metrics, and goals in software understanding. Just last year, the field of decompilation had a historical boon in publications, but that came after a nearly 30-year drought, in part due to the difficulty of measuring software understanding progress. Similarly, human studies in reverse engineering have only recently become commonplace in security conferences due to their more indirect benefits for security. Coupling these issues with the large variety of approaches to understanding software, this research area desperately requires community involvement for direction and motivation. </p>
