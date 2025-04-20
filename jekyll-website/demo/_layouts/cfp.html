@@ -8,7 +8,7 @@ layout: default
 
 <!--- ALERTS --->
 
-<div class="container">
+<!-- <div class="container">
     {% assign alerts = site.data.index.alerts %}
     {% for alert in alerts %}
     {% assign classes = 'mt-4' %}
@@ -24,11 +24,15 @@ layout: default
         </div>
     </div>
     {% endfor %}
-</div>
+</div> -->
 
 
 <main class="my-4">
-    <div class="container px-5 py-3 bg-{{ index_bg }} rounded">
+   <!---
+	<div class="container px-5 py-3 bg-{{ index_bg }} rounded">
+	-->
+	 <div class="container px-5 py-3" style="text-align: justify;">
+
         <h1 class="display-3">{{ title }}</h1>
         <p class="lead">{{ description }}</p>
         <hr class="my-4">

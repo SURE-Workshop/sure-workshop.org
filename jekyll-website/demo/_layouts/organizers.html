@@ -13,6 +13,11 @@ layout: default
         <hr class="my-4">
         {% assign groups = site.data.organizers.groups %}
         {% for group in groups %}
+        <!--- for adding line after title -->
+        {%- unless forloop.first -%}
+        <hr class="my-4">
+        {%- endunless -%}
+    
         {% if group.title %}
         <h5 class="fw-normal">{{ group.title }}</h5>
         {% endif %}
