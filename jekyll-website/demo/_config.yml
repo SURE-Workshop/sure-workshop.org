@@ -15,6 +15,9 @@ exclude:
   - README.md
   - Gemfile
   - vendor/
+  - map.md
+  - program.md
+
 
 plugins:
   - jekyll-seo-tag
