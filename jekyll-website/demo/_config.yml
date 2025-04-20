@@ -18,7 +18,6 @@ exclude:
   - map.md
   - program.md
 
-
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
