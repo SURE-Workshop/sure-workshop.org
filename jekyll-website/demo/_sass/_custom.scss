@@ -9,3 +9,17 @@
   margin-bottom: 0.75rem;
 }
 
+#roster {
+  column-count: 2 !important;
+  column-gap:   1rem;
+}
+
+/* Style for the organizers group titles */
+.organizer-group-title {
+  /* pick whatever color you like */
+  color: #2c3e50;        /* a dark slate blue */
+  font-size: 1.5rem;     /* bump up from the default h5 size */
+  font-weight: 600;      /* semi‑bold */
+  margin-top: 2rem;      /* extra breathing room above */
+  margin-bottom: 1rem;   /* space below before the list */
+}

@@ -18,7 +18,7 @@ groups:
 
   - title: Program Committee
     sort: true
-    columns: false
+    columns: true
     members:
     - name: Edward Schwartz
       affil: CMU
