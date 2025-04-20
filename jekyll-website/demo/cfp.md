@@ -36,7 +36,7 @@ Paper Submission: X 2025
 
 Acceptance notification: Y 2025
 
-Workshop: Z Oct 2025 (co-located with CCS 2025)
+Workshop: October 13-17, 2025 (co-located with CCS 2025)
 
 <h2 class="small-heading"> Submission Guidelines </h2>
 Some text about format of paper and anonymity
