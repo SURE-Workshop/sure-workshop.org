@@ -104,22 +104,21 @@
 }
 
 
-/* Organizers page enhancements */
 
-/* Card background & border */
+
+/* Organizers page card styling */
 .organizer-group-card {
   background: var(--oc-gray-0);
-  border:     1px solid var(--oc-gray-2);
+  border: 1px solid var(--oc-gray-2);
   border-radius: 0.5rem;
-  box-shadow:    0 4px 8px rgba(0,0,0,0.05);
-  transition:    border-color .2s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: border-color .2s ease;
 }
-
 .organizer-group-card:hover {
   border-color: var(--oc-blue-6);
 }
 
-/* Title accent */
+/* Title accent bar */
 .organizer-group-title {
   position: relative;
   padding-left: 1rem;
@@ -135,7 +134,7 @@
   border-radius: 2px;
 }
 
-/* Tighter list spacing */
+/* List tweaks */
 .organizer-list li {
   margin-bottom: 0.5rem;
 }

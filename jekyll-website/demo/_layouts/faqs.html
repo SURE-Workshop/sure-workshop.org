@@ -16,7 +16,7 @@ layout: default
       {% for faq in items %}
         <div class="mb-4">
           <h5 class="fw-normal organizer-group-title">{{ faq.question }}</h5>
-          <p>{{ faq.answer }}</p>
+	  {{ faq.answer | markdownify }}
         </div>
       {% endfor %}
     {% endif %}
