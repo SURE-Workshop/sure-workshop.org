@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% include metadata.liquid %}
+{% include header.html %}
+
+<main class="my-4">
+  <div class="container">
+    <h1 class="display-5">{{ page.title }}</h1>
+    {{ content }}
+
+    {% assign items = site.data.faqs.faqs %}
+    {% if items %}
+      <hr class="my-4">
+      {% for faq in items %}
+        <div class="mb-4">
+          <h5 class="fw-normal organizer-group-title">{{ faq.question }}</h5>
+          <p>{{ faq.answer }}</p>
+        </div>
+      {% endfor %}
+    {% endif %}
+  </div>
+</main>
+
+{% include footer.html %}
+

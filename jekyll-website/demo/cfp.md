@@ -5,9 +5,7 @@ description: Workshop on Software Understanding and Reverse Engineering (SURE 20
 navorder: 2
 ---
 
-<!---
-<div class="px-5 py-3 bg-gray-2 rounded my-4">
---->
+
 
 In the modern age of AI-empowered code generation, the rate at which we create software has accelerated dramatically. Yet, our ability to understand software has not matched in pace. Federal agencies, such as DARPA, have noticed, issuing a call to action to “close the software understanding gap” with the help of both academia and industry. In doing so, millions of dollars have been committed to funding research that seeks to understand programs for goals such as binary patching, performance enhancement, and, in DARPA and ARPA-H’s AIxCC —with $29 million of prize money at stake—autonomous reasoning on large open-source projects. Put simply, both the impact and need for software understanding, at the binary and source level, are at an all-time high. 
 
@@ -15,12 +13,10 @@ Research on software understanding and reverse engineering often has difficulty 
 
 The Workshop on Software Understanding and Reverse Engineering (SURE) aims to gather a variety of work and researchers on software understanding in one place to both inspire and guide the community toward critical areas for research in software understanding and reverse engineering. SURE will be run in three parts: a traditional paper session, a lunch poster session for positional and work in progress papers, and a roundtable discussion among researchers, practitioners, industry, and interested government officials. To this end, we welcome submissions on all aspects of understanding software in both source code and binaries, including reverse engineering methodologies, visualization, AI, human factors, benchmarking, and tooling.
 
-<!---
-</div>
---->
+
+
 
 <h2 class="small-heading"> Areas of Interest </h2>
-
 - Human studies in reverse engineering
 - Decompilation (fundamentals, applications) 
 - Complexity and readability measurements
@@ -33,6 +29,7 @@ The Workshop on Software Understanding and Reverse Engineering (SURE) aims to ga
 - Retroactive software performance improvements
 - Testcase generation
 - Formal methods in reverse engineering
+
 
 <h2 class="small-heading"> Important Dates </h2>
 Paper Submission: X 2025

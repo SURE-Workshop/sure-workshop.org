@@ -1,0 +1,20 @@
+faqs:
+  - question: "What is SURE 2025?"
+    answer: >
+      The Workshop on Software Understanding and Reverse Engineering (SURE 2025)
+      brings together researchers and practitioners to discuss advances in software
+      comprehension, decompilation, visualization, and related topics.
+  - question: "Where and when will the workshop be held?"
+    answer: >
+      SURE 2025 will be co‑located with [CONF‑NAME], on August 12–13, 2025,
+      in City, Country.
+  - question: "How do I submit a paper?"
+    answer: >
+      Submissions open on March 1, 2025. See our
+      [Call for Papers](/cfp/) page for details on formatting, topics, and deadlines.
+  - question: "Is there a registration fee?"
+    answer: >
+      Yes—there is a modest registration fee. Early‑bird rates apply until June 1, 2025.
+      Details will be posted on the registration page.
+  # …add more Q&A here…
+
