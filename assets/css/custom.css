@@ -31,7 +31,7 @@
 /* Limit banner height and have it crop neatly */
 
 .banner-container {
-  height: 220px;       
+  height: 420px;       
   overflow: hidden;
 }
 
