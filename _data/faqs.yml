@@ -1,0 +1,25 @@
+faqs:
+  - question: "What is SURE 2025?"
+    answer: >
+      The Workshop on Software Understanding and Reverse Engineering (SURE 2025)
+      brings together researchers and practitioners to discuss advances in software
+      comprehension, decompilation, TODO and related topics. (maybe not this ques)
+  - question: "Where and when will the workshop be held?"
+    answer: >
+      SURE 2025 will be co‑located with CCS, on October 13-17, 2025, in Taipei, Taiwan.
+  - question: "How do I submit a paper or poster?"
+    answer: >
+      Submissions open on X, 2025. See our
+      [Call for Papers](/cfp/) page for details on formatting, topics, and deadlines.
+  - question: "Is there a registration fee?"
+    answer: > 
+      TODO
+  - question: "How can I apply for Visa?"
+    answer: > 
+      Please visit [CCS's Visa](https://www.sigsac.org/ccs/CCS2025/visa/) section for details.
+  - question: Can non‑academics submit?
+    answer: > 
+      Absolutely anyone interested is welcome to submit their papers and posters.
+
+  # …add more Q&A here…
+

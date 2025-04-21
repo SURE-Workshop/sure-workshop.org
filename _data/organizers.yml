@@ -1,0 +1,71 @@
+groups:
+  - title: Program Chairs
+    columns: false
+    members:
+      - name: Zion Leonahenahe Basque (Chair)
+        affil: Arizona State University
+      - name: Ati Priya Bajaj (Co-Chair)
+        affil: Arizona State University
+  
+  - title: Steering Committee
+    sort: false
+    columns: false
+    members:
+      - name: Fish Wang
+        affil: Arizona State University
+      - name: Yan Shoshitaishvili
+        affil: Arizona State University
+
+  - title: Program Committee
+    sort: true
+    columns: true
+    members:
+    - name: Edward Schwartz
+      affil: CMU
+    - name: Kangjie Lu
+      affil: University of Minnesota
+    - name: Giovanni Vigna
+      affil: UC Santa Barbara
+    - name: Marius Muench
+      affil: University of Birmingham
+    - name: Fabio Pagani
+      affil: Binarly
+    - name: Hyungjoon Koo
+      affil: Sungkyunkwan University
+    - name: Igor Skochinsky
+      affil: Hex-Rays
+    - name: Xinyu Xing
+      affil: Northwestern University
+    - name: Tim Blazytko
+      affil: Emproof
+    - name: Yan Shoshitaishvili
+      affil: Arizona State University
+    - name: Christophe Hauser
+      affil: Dartmouth
+    - name: William Robertson
+      affil: Northeastern University
+    - name: Sergey Bratus
+      affil: Dartmouth
+    - name: Antonio Bianchi
+      affil: Purdue University
+    - name: Fish Wang
+      affil: Arizona State University
+    - name: Khaled Yakdan
+      affil: Code Intelligence
+    - name: Freek Verbeek
+      affil: Virginia Tech
+    - name: Fabian Yamaguchi
+      affil: Whirly Labs
+    - name: Xiangyu Zhang
+      affil: Purdue University
+    - name: Kristopher Micinski
+      affil: Syracuse University
+    - name: Michael Franz
+      affil: UC Irvine
+    - name: Zhiqiang Lin
+      affil: Ohio State University
+    - name: Jun Xu
+      affil: University of Utah
+
+
+

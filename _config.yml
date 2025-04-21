@@ -1,30 +1,29 @@
-title: SURE Workshop
-description: The Workshop on Software Understanding and Reverse Engineering
+title: SURE
+description: workshop
 baseurl: ""
 url: ""
 
-# Build settings
-markdown: kramdown
 permalink: pretty
+theme: jekyll-nagymaros
 
-# Default layout
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: default
+home: /
+copyright: Place Holder
+indexing: true
 
-# Collections
-collections:
-  years:
-    output: true
-    permalink: /:path/
-
-# Include directories
-include:
-  - assets
-
-# Exclude the year directories from processing
 exclude:
-  - 2025 
+  - LICENSE
+  - README.md
+  - Gemfile
+  - vendor/
+  - map.md
+  - program.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sourcemap: never
+
+
+ 
