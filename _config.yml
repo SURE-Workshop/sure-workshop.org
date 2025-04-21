@@ -18,6 +18,7 @@ exclude:
   - program.md
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
 
@@ -25,4 +26,4 @@ sass:
   sourcemap: never
 
 
- 
+remote_theme: piazzai/jekyll-nagymaros 
