@@ -10,7 +10,7 @@ $a_hover: var(--oc-{{ site.data.skin.a.hover | default: 'blue-9' }});
 $accordion-button_bg: var(--oc-{{ site.data.skin.accordion-button.bg | default: 'gray-2' }});
 $accordion-item_border: var(--oc-{{ site.data.skin.accordion-item.border | default: 'gray-2' }});
 $alert-primary_bg: var(--oc-{{ site.data.skin.alert-primary.bg | default: 'blue-1' }});
-$body_bg: var(--oc-{{ site.data.skin.body.bg | default: 'gray-0' }});
+$body_bg: #F6F4F0; 
 $body_color: var(--oc-{{ site.data.skin.body.color | default: 'gray-8' }});
 $btn-outline-primary_border: var(--oc-{{ site.data.skin.btn-outline-primary.border | default: 'blue-5' }});
 $btn-outline-primary_color: var(--oc-{{ site.data.skin.btn-outline-primary.color | default: 'blue-5' }});

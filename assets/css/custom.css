@@ -61,7 +61,8 @@
 /* prettier CFP cards - all gray */
 
 .cfp-content > * {
-  background-color: var(--oc-gray-0);
+  background-color: #f7f6f2;
+  /*var(--oc-gray-0); */
   border: 2px solid var(--oc-gray-3);
   padding: 2rem;                     
   border-radius: 0.5rem;             

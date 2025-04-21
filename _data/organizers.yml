@@ -21,7 +21,7 @@ groups:
     columns: true
     members:
     - name: Edward Schwartz
-      affil: CMU
+      affil: Carnegie Mellon University
     - name: Kangjie Lu
       affil: University of Minnesota
     - name: Giovanni Vigna
