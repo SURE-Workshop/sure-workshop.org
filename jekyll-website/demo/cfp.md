@@ -32,11 +32,16 @@ The Workshop on Software Understanding and Reverse Engineering (SURE) aims to ga
 
 
 <h2 class="small-heading"> Important Dates </h2>
-Paper Submission: X 2025
+Paper and poster submission deadline: X 2025
+
+Rebuttal period: A to B
 
 Acceptance notification: Y 2025
 
 Workshop: October 13-17, 2025 (co-located with CCS 2025)
+
+Camera-ready deadline: ?
+
 
 <h2 class="small-heading"> Submission Guidelines </h2>
 Some text about format of paper and anonymity
