@@ -130,7 +130,7 @@
   position: absolute;
   left: 0; top: 0.25rem;
   width: 4px; height: 1.2rem;
-  background: var(--oc-blue-5);
+  background: #0d344a !important;
   border-radius: 2px;
 }
 
@@ -141,4 +141,6 @@
 .organizer-list li:last-child {
   margin-bottom: 0;
 }
+
+
 

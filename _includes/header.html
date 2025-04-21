@@ -5,10 +5,10 @@
 {% assign return = '/' | relative_url %}
 {% endif %}
 
-<header class="sticky-top bg-{{ site.data.skin.header.bg | default: 'gray-4' }}">
+<header class="sticky-top" style="background-color: #0d344a;">
     <div class="container">
-        <nav class="navbar navbar-expand-sm">
-            <a class="navbar-brand" href="{{ return }}">{{ site.title }}</a>
+        <nav class="navbar navbar-expand-sm  navbar-dark">
+            <a class="navbar-brand text-white" href="{{ return }}">{{ site.title }}</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

@@ -44,7 +44,7 @@ $form-control_placeholder: var(--oc-{{ site.data.skin.form-control | default: 'g
 $invalid-feedback: var(--oc-{{ site.data.skin.invalid-feedback | default: 'red-9' }});
 $navbar-brand_color: var(--oc-{{ site.data.skin.navbar-brand.color | default: 'gray-8' }});
 $navbar-brand_hover: var(--oc-{{ site.data.skin.navbar-brand.hover | default: 'gray-9' }});
-$nav-link_color: var(--oc-{{ site.data.skin.nav-link.color | default: 'gray-7' }});
+$nav-link_color: var(--oc-{{ site.data.skin.nav-link.color | default: 'white' }});
 $nav-link_hover: var(--oc-{{ site.data.skin.nav-link.hover | default: 'gray-9' }});
 $svg_fill: var(--oc-{{ site.data.skin.svg.fill | default: 'gray-7' }});
 $table_td_border: var(--oc-{{ site.data.skin.table.td.border | default: 'gray-2' }});
