@@ -4,7 +4,6 @@ baseurl: ""
 url: ""
 
 permalink: pretty
-theme: jekyll-nagymaros
 
 home: /
 copyright: Place Holder
