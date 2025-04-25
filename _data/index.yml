@@ -1,7 +1,7 @@
 alerts:
-  - title: "Hello!"
-    text: Welcome to SURE!.
-    # color: green-1
+  #- title: "Hello!"
+  #  text: Welcome to SURE!.
+  #  color: blue-1
   # - text: You can have multiple alerts, with different colors. This is the default.
 # buttons:
 #   - text: GitHub

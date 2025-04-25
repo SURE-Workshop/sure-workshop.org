@@ -1,25 +1,17 @@
 faqs:
-  - question: "What is SURE 2025?"
+  - question: "How can I contact the chairs?"
     answer: >
-      The Workshop on Software Understanding and Reverse Engineering (SURE 2025)
-      brings together researchers and practitioners to discuss advances in software
-      comprehension, decompilation, TODO and related topics. (maybe not this ques)
-  - question: "Where and when will the workshop be held?"
+      You can join our [Discord server](https://discord.gg/eVySXH7ZQ8) or email `zbasque@asu.edu` and `atipriya@asu.edu`.
+  - question: "Do you have any example works that align with SURE topics?"
     answer: >
-      SURE 2025 will be co‑located with CCS, on October 13-17, 2025, in Taipei, Taiwan.
-  - question: "How do I submit a paper or poster?"
+      The [CFP](/cfp) shows most topic we find align with SURE. Some example works include: [studying how humans reverse engineer](https://www.usenix.org/conference/usenixsecurity22/presentation/mantovani), [byte-exact decompilation](https://eschulte.github.io/data/bed.pdf), [root cause analysis of crashes](https://kevinkoo001.github.io/assets/pdf/sp24-benzene-official.pdf), [readability metrics](https://dl.acm.org/doi/10.1145/3643744), and more. Generally, any work that improves our ability to answer the question "what does this program do?" is topical at SURE. 
+  - question: "Can non‑academics submit?"
+    answer: > 
+      Absolutely! We are especially excited to see work from non-traditional academics, such as those who develop debugger plugins, decompilers, and source code analysis tools.  
+  - question: "How can I register to attend?"
+    answer: > 
+      To attend SURE you will need to register for [CCS 2025](https://www.sigsac.org/ccs/CCS2025/) first and then select our workshop before finishing your registration. 
+  - question: "Will SURE be helping with the Visa process?"
     answer: >
-      Submissions open on X, 2025. See our
-      [Call for Papers](/cfp/) page for details on formatting, topics, and deadlines.
-  - question: "Is there a registration fee?"
-    answer: > 
-      TODO
-  - question: "How can I apply for Visa?"
-    answer: > 
-      Please visit [CCS's Visa](https://www.sigsac.org/ccs/CCS2025/visa/) section for details.
-  - question: Can non‑academics submit?
-    answer: > 
-      Absolutely anyone interested is welcome to submit their papers and posters.
-
-  # …add more Q&A here…
+      CCS will be providing Visa's to those that request one. See [CCS's Visa](https://www.sigsac.org/ccs/CCS2025/visa/) section for details.
 

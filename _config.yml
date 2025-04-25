@@ -1,12 +1,12 @@
-title: SURE
-description: workshop
+title: SURE 2025
+description: The Workshop on Software Understanding and Reverse Engineering
 baseurl: ""
 url: ""
 
 permalink: pretty
 
 home: /
-copyright: Place Holder
+copyright: SURE
 indexing: true
 
 exclude:
