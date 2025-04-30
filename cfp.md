@@ -42,4 +42,4 @@ All submissions must be received by 11:59 p.m. [anywhere-on-earth](https://time.
 - **Submission Deadline**: June 27th
 - **Author Notification**: August 8th
 - **Deadline for Camera-ready**: August 19th
-- **Workshop**: October 13th/17th (TBA)
+- **Workshop**: October 13th

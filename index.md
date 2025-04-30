@@ -22,4 +22,4 @@ All dates listed are [Anywhere-on-Earth](https://time.is/Anywhere_on_Earth).
 - **Submission Deadline**: June 27th
 - **Author Notification**: August 8th
 - **Deadline for Camera-ready**: August 19th
-- **Workshop**: October 13th/17th (TBA)
+- **Workshop**: October 13th
