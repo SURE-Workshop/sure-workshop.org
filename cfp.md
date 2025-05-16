@@ -26,7 +26,7 @@ The Workshop on Software Understanding and Reverse Engineering (SURE) aims to ga
 - Formal methods in reverse engineering
 
 <h2 class="small-heading"> Submissions </h2>
-We invite **Full Papers** (12 pages), **Short Papers** (6 pages), and **Poster Abstracts** on any topic in scope.
+We invite **Full Papers** (12 pages), **Short Papers** (6 pages), and [Poster Abstracts](#poster-abstracts) on any topic in scope.
 Page limits exclude references.
 Note that reviewers are not required to read appendices or any supplementary material. 
 The review process is double-blind. 
@@ -35,6 +35,18 @@ Submissions must be anonymized.
 All papers must be formatted in the [double-column ACM format](https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sig-proceedings-template/bmvfhcdnxfty) and submitted via the HotCRP submission system. 
 Authors should not change the font or the margins of the ACM format.
 Submissions not following the required format may be rejected without review.
+
+#### Poster Abstracts
+For poster submissions, authors should submit a short proposal describing their poster's main contributions.
+Proposals should contain a brief abstract and emphasize the motivation for the work, following the below formatting:
+1. Double-column ACM format
+2. No more than two pages, including references and figures
+3. Submissions must **not** be anonymized
+4. Titles must begin with “Poster:”
+
+Posters on positional or in-progress works are encouraged.
+All accepted poster authors should email a poster draft a month before the workshop. 
+Presented posters should be sized 32×40 inches.
 
 <h2 class="small-heading"> Important Dates </h2>
 All submissions must be received by 11:59 p.m. [anywhere-on-earth](https://time.is/Anywhere_on_Earth) time on the day of the corresponding deadline.
