@@ -14,6 +14,8 @@ To further engage the community, we have also opened a [Discord server](https://
 We encourage both researchers and practitioners to join the server to discuss topics relevant to SURE. 
 Follow us [on X](https://x.com/sureworkshop) for updates and announcements. 
 
+**Our submission site for SURE 2025 is now open**: [sure25.hotcrp.com](https://sure25.hotcrp.com/).
+
 [![Discord](https://dcbadge.vercel.app/api/server/eVySXH7ZQ8)](https://discord.gg/eVySXH7ZQ8)
 
 <h2 class="small-heading"> Important Dates </h2>

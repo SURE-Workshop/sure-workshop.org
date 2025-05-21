@@ -26,6 +26,8 @@ The Workshop on Software Understanding and Reverse Engineering (SURE) aims to ga
 - Formal methods in reverse engineering
 
 <h2 class="small-heading"> Submissions </h2>
+The submission site is OPEN at [sure25.hotcrp.com](https://sure25.hotcrp.com/).
+
 We invite **Full Papers** (12 pages), **Short Papers** (6 pages), and [Poster Abstracts](#poster-abstracts) on any topic in scope.
 Page limits exclude references.
 Note that reviewers are not required to read appendices or any supplementary material. 
