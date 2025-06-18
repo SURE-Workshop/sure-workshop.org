@@ -16,7 +16,7 @@ Follow us [on X](https://x.com/sureworkshop) for updates and announcements.
 
 **Our submission site for SURE 2025 is now open**: [sure25.hotcrp.com](https://sure25.hotcrp.com/).
 
-[![Discord](https://dcbadge.limes.pink/api/server/INVITE)](https://discord.gg/eVySXH7ZQ8)
+[![Discord](https://dcbadge.limes.pink/api/server/eVySXH7ZQ8)](https://discord.gg/eVySXH7ZQ8)
 
 <h2 class="small-heading"> Important Dates </h2>
 All times listed are [Anywhere-on-Earth](https://time.is/Anywhere_on_Earth) (AoE).
