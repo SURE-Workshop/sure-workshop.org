@@ -51,9 +51,9 @@ All accepted poster authors should email a poster draft a month before the works
 Presented posters should be sized 32×40 inches.
 
 <h2 class="small-heading"> Important Dates </h2>
-All submissions must be received by 11:59 p.m. [anywhere-on-earth](https://time.is/Anywhere_on_Earth) time on the day of the corresponding deadline.
+All times listed are [Anywhere-on-Earth](https://time.is/Anywhere_on_Earth) (AoE).
 
-- **Submission Deadline**: June 27th
+- **Submission Deadline**: July 7th, 11:59pm AoE
 - **Author Notification**: August 8th
-- **Deadline for Camera-ready**: August 19th
+- **Deadline for Camera-ready**: August 19th, 11:59pm AoE
 - **Workshop**: October 13th
