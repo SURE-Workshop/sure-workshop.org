@@ -54,6 +54,6 @@ Presented posters should be sized 32×40 inches.
 All times listed are [Anywhere-on-Earth](https://time.is/Anywhere_on_Earth) (AoE).
 
 - **Submission Deadline**: July 7th, 11:59pm AoE
-- **Author Notification**: August 8th
+- **Author Notification**: August ~~8th~~ 13th
 - **Deadline for Camera-ready**: August 19th, 11:59pm AoE
 - **Workshop**: October 13th
