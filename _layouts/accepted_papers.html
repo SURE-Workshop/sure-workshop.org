@@ -1,0 +1,109 @@
+---
+layout: default
+---
+
+{% include metadata.liquid %}
+{% include header.html %}
+
+<main class="my-4">
+    <div class="container">
+        <h1 class="display-5">{{ title }}</h1>
+        {{ content }}
+        
+        {% if site.data.accepted_papers %}
+        
+        
+        <!-- Papers Section -->
+        {% if site.data.accepted_papers.papers %}
+        <hr class="my-4">
+        <div class="row">
+            <div class="col-12">
+                
+                <!-- Filter buttons -->
+                <div class="mb-4">
+                    <button class="btn btn-outline-primary btn-sm me-2 filter-btn active" data-filter="all">All</button>
+                    <button class="btn btn-outline-success btn-sm me-2 filter-btn" data-filter="Full Paper">Full Papers</button>
+                    <button class="btn btn-outline-info btn-sm me-2 filter-btn" data-filter="Short Paper">Short Papers</button>
+                    <button class="btn btn-outline-warning btn-sm filter-btn" data-filter="Poster">Posters</button>
+                </div>
+                
+                <!-- Papers list -->
+                {% for paper in site.data.accepted_papers.papers %}
+                <div class="card mb-4 paper-item shadow-sm" data-type="{{ paper.type }}">
+                    <div class="card-body p-4">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="paper-header mb-3">
+                                    <h5 class="paper-title mb-2 text-dark">{{ paper.title }}</h5>
+                                </div>
+                                
+                                <div class="paper-authors mb-3">
+                                    <p class="mb-0 text-muted lh-base">
+                                        <i class="fas fa-users me-2"></i>{{ paper.authors }}
+                                    </p>
+                                </div>
+                                
+                                {% if paper.abstract %}
+                                <div class="paper-abstract">
+                                    <p class="mb-0 text-secondary lh-base" style="text-align: justify;">
+                                        <i class="fas fa-quote-left me-2 text-muted"></i>{{ paper.abstract }}
+                                    </p>
+                                </div>
+                                {% endif %}
+                            </div>
+                            <div class="col-md-2 d-flex flex-column align-items-end justify-content-start">
+                                {% assign badge_class = "primary" %}
+                                {% if paper.type == "Full Paper" %}
+                                    {% assign badge_class = "success" %}
+                                {% elsif paper.type == "Short Paper" %}
+                                    {% assign badge_class = "info" %}
+                                {% elsif paper.type == "Poster" %}
+                                    {% assign badge_class = "warning" %}
+                                {% endif %}
+                                <span class="badge bg-{{ badge_class }} mb-2">{{ paper.type }}</span>
+                                {% if paper.pub_url and paper.pub_url != "#" %}
+                                <a href="{{ paper.pub_url }}" class="btn btn-outline-primary btn-sm" target="_blank">
+                                    <i class="fas fa-external-link-alt me-1"></i> View Paper
+                                </a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        
+        {% endif %}
+    </div>
+</main>
+
+<!-- JavaScript for filtering -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const paperItems = document.querySelectorAll('.paper-item');
+    
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Update active button
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+            
+            const filter = this.getAttribute('data-filter');
+            
+            // Show/hide papers based on filter
+            paperItems.forEach(item => {
+                if (filter === 'all' || item.getAttribute('data-type') === filter) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
+});
+</script>
+
+{% include footer.html %}

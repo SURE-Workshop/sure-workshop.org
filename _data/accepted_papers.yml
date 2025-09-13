@@ -1,0 +1,86 @@
+papers:
+  - title: "ideco: A Framework for Improving Non-C Decompilation"
+    authors: "Sam Lerner (Independent)"
+    type: "Short Paper"
+    abstract: "We introduce the ideco framework to aid in the decompilation of non-C programming languages. ideco provides users with the ability to create rules which rewrite parts of the decompilation. We show that by using a small set of rules, the number of lines of decompiled code for binaries written in C++, Swift, Go, and Rust can be decreased by 5% to 10%. In addition, by using GPT-4o and GPT-4.1-mini as test subjects, we show that a reverse engineering task is easier to solve when its decompilation is processed by ideco."
+    pub_url: "#"
+    paper_id: 1
+    
+  - title: "Systematic Testing of C++ Abstraction Recovery Systems by Iterative Compiler Model Refinement"
+    authors: "Authors TBD"
+    type: "Full Paper"
+    abstract: "C++ source code abstractions such as classes and methods greatly assist human analysts and automated algorithms alike when analyzing C++ programs. These abstractions are lost during the compilation process, but researchers have been developing tools to recover them using program analysis. In this paper, we address this problem by proposing a new model-based approach for systematically testing C++ abstraction recovery systems. We built EmCee, a model of Microsoft's Visual C++ compiler, to apply our technique to the popular C++ abstraction recovery systems VirtAnalyzer and OOAnalyzer. Using our approach, we identified 27 soundness problems in OOAnalyzer and three in VirtAnalyzer."
+    pub_url: "#"
+    paper_id: 2
+    
+  - title: "LibIHT: A Hardware-Based Approach to Efficient and Evasion-Resistant Dynamic Binary Analysis"
+    authors: "Changyu Zhao (University of Wisconsin-Madison), Yohan Beugin (University of Wisconsin-Madison), Jean-Charles Noirot Ferrand (University of Wisconsin-Madison), Quinn Burke (University of Wisconsin-Madison), Guancheng Li (Tencent Xuanwu Lab), Patrick McDaniel (University of Wisconsin-Madison)"
+    type: "Full Paper"
+    abstract: "Dynamic program analysis is invaluable for malware detection, debugging, and performance profiling. However, software-based instrumentation incurs high overhead and can be evaded by anti-analysis techniques. In this paper, we propose LibIHT, a hardware-assisted tracing framework that leverages on-CPU branch tracing features (Intel Last Branch Record and Branch Trace Store) to efficiently capture program control-flow with minimal performance impact. Our results indicate that LibIHT reduces runtime overhead by over 150× compared to Intel Pin, while achieving high fidelity in CFG reconstruction."
+    pub_url: "#"
+    paper_id: 3
+
+
+  - title: "Measuring While Playing Fair: An Empirical Analysis of Language and Framework Usage in the iOS App Store"
+    authors: "Florian Magin (Fraunhofer SIT | ATHENE), Fabian Scherf (Fraunhofer SIT | ATHENE), Martin Renze (Fraunhofer SIT | ATHENE), Cléo Fischer (Fraunhofer SIT | ATHENE), Gwendal Patat (Fraunhofer SIT | ATHENE)"
+    type: "Short Paper"
+    abstract: "Reverse engineering research has mainly focused on binaries compiled from C and C++, however, in the iOS ecosystem, neither of these languages are the focus of application developers. Apple provides their own languages with Objective-C and Swift as the official choices, while third party cross-platform frameworks, like Microsoft's .NET MAUI, Jetpack Compose, Flutter or even React Native promise unified development across iOS and Android. To investigate the relevance of languages for R&D efforts in software understanding, we conduct a historical analysis spanning 84,432 distinct iOS applications over the past five years. Unlike previous approaches, we sidestep the technical and legal challenges of the FairPlay DRM system used to encrypt iOS apps and demonstrate that FairPlay does not cover various useful metadata. Our key findings show that, as expected, Swift is now included in almost every popular application, however without phasing out Objective-C usage. Additionally, newer cross-platform languages like Flutter and Kotlin have seen a steady increase in use, while .NET has stagnated since 2020."
+    pub_url: "#"
+    paper_id: 4
+    
+  - title: "Towards Scalable Evaluation of Software Understanding: A Methodology Proposal"
+    authors: "Florian Magin (Fraunhofer SIT | ATHENE), Magdalena Wache (Fraunhofer SIT | ATHENE), Fabian Scherf (Fraunhofer SIT | ATHENE), Cléo Fischer (Fraunhofer SIT | ATHENE), Jonas Zabel (Fraunhofer SIT | ATHENE)"
+    type: "Short Paper"
+    abstract: "In reverse engineering our goal is to build systems that help people to understand software. However, the field has not converged on a way to measure software understanding. In this paper, we make the case that understanding should be measured via performance on understanding-questions. We propose a method for constructing understanding-questions and evaluating answers at scale. We conduct a case study in which we apply our method and compare Ghidra's default auto analysis with an analysis that supports binary constructs that are specific to Objective-C."
+    pub_url: "#"
+    paper_id: 5
+    
+  - title: "Toward Inferring Structural Semantics from Binary Code Using Graph Neural Networks"
+    authors: "Noriki Sakamoto (Graduate School of Engineering, Osaka Electro-Communication University), Kazuhiro Takeuchi (Faculty of Information and Communication Engineering, Osaka Electro-Communication University)"
+    type: "Full Paper"
+    abstract: "Recovering semantic information from binary code is a fundamental challenge in reverse engineering, especially when source-level information is unavailable. We aim to analyze the types and roles of structural elements from the binary observed in the compiled program, focusing on their contextual usage patterns and associations to other members. We investigate the effectiveness of three alternative GNN architectures: gated graph neural networks (GGNN), graph attention networks (GAT), and standard graph convolutional networks (GCN) in capturing structural semantics from binary-level data-flow graphs. Our results show that these architectures capture complementary aspects of structural semantics."
+    pub_url: "#"
+    paper_id: 6
+    
+  - title: "DEBRA: A Real-World Benchmark For Evaluating Deobfuscation Methods"
+    authors: "Zheyun Feng (University of New Hampshire), Dongpeng Xu (University of New Hampshire)"
+    type: "Full Paper"
+    abstract: "Software obfuscation is a broadly adopted protection method that hides representative information by transforming it into a highly opaque but semantic-equivalent form. To date, a variety of deobfuscation methods have been developed to peel off the obfuscation and expose the original program semantics. However, nearly all deobfuscation tools are merely tested and evaluated on small toy programs with ad-hoc configurations, leading to a fundamental gap between the deobfuscation research and real-world practice. To fill this gap, we propose DEBRA, a comprehensive, large-scale obfuscation benchmark crafted with a diverse range of real-world programs for evaluating deobfuscation methods. We design a metric-driven approach to determine the crucial or sensitive functions to be obfuscated, because in real-world practice, only the critical parts of a program are obfuscated to balance security and execution overhead."
+    pub_url: "#"
+    paper_id: 7
+    
+  - title: "Benchmarking Binary Type Inference Techniques in Decompilers"
+    authors: "Authors TBD"
+    type: "Full Paper"
+    abstract: "Decompilation is the process of translating low-level, machine-executable code back into a high-level representation. Decompilers--tools that perform this translation-- are essential for reverse engineers and security professionals, supporting critical tasks within their workflows. However, due to the inherent loss of information during compilation as a result of optimizations, inlining, and other compiler-specific transformations, decompiled output is often incomplete or inaccurate. A central challenge in decompilation is accurate type inference: the reconstruction of high-level type information for variables based on low-level code patterns and memory access behaviors. This paper presents a benchmark study of five decompilers, focusing on their ability to infer types at both the function and variable levels. We conduct the evaluation on a dataset of binaries compiled from the Nixpkgs collection at both -O0 and -O2 optimization levels, allowing us to assess decompiler performance across unoptimized and optimized executables."
+    pub_url: "#"
+    paper_id: 8
+    
+  - title: "On the Learnability, Robustness, and Adaptability of Deep Learning Models for Obfuscation-applied Code"
+    authors: "Jiyong Uhm (Sungkyunkwan University), Yujeong Kwon (Sungkyunkwan University), Hyungjoon Koo (Sungkyunkwan University)"
+    type: "Short Paper"
+    abstract: "Code obfuscation is a common technique to impede software analysis on purpose by concealing a program's structure, logic, or behavior for both benign and malicious purposes. Its widespread adoption poses a significant challenge to security analysts. While deep learning has shown promise across various binary analysis tasks, the learnability and the applicability from obfuscation-applied code have received less attention to date. In this paper, we investigate how well obfuscation-applied code can be learned on a state-of-the-art model for the binary code similarity detection task. Training the model with obfuscated codes from two source-based and IR-based obfuscation tools (Tigress, Obfuscator-LLVM), we evaluate: i) learnability on obfuscated code, ii) generalizability for both obfuscated and non-obfuscated code, iii) robustness to known obfuscation techniques, and iv) adaptability to unknown obfuscation techniques. Our findings show that learning a task directly from obfuscated code is feasible, outperforming models trained on large volumes of non-obfuscated code even with a comparatively small dataset."
+    pub_url: "#"
+    paper_id: 9
+    
+  - title: "Enhancing Bytecode Exact Decompilation via LLM-Generated Seeds"
+    authors: "Ryota Saito (Shizuoka University), Tetsushi Ohki (Shizuoka University and RIKEN AIP)"
+    type: "Poster"
+    pub_url: "#"
+    paper_id: 10
+    
+  - title: "Improving Out-of-SSA Variable Renaming with Dependency Strength–Based Grouping"
+    authors: "Steffen Enders (Fraunhofer FKIE), Eva-Maria C. Behner (Fraunhofer FKIE), Elmar Padilla (Fraunhofer FKIE)"
+    type: "Poster"
+    pub_url: "#"
+    paper_id: 11
+    
+  - title: "Delinking: Stripping Programs for Parts"
+    authors: "Jean-Baptiste Boric"
+    type: "Poster"
+    pub_url: "#"
+    paper_id: 12
+
+    
+
+
