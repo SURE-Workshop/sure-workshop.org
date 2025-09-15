@@ -7,7 +7,7 @@ layout: default
 
 <main class="my-4">
     <div class="container">
-        <h1 class="display-5">{{ title }}</h1>
+        <h1 class="display-3">{{ title }}</h1>
         {{ content }}
         
         {% if site.data.accepted_papers %}
@@ -24,7 +24,7 @@ layout: default
                     <button class="btn btn-outline-primary btn-sm me-2 filter-btn active" data-filter="all">All</button>
                     <button class="btn btn-outline-success btn-sm me-2 filter-btn" data-filter="Full Paper">Full Papers</button>
                     <button class="btn btn-outline-info btn-sm me-2 filter-btn" data-filter="Short Paper">Short Papers</button>
-                    <button class="btn btn-outline-warning btn-sm filter-btn" data-filter="Poster">Posters</button>
+                    <button class="btn btn-outline-secondary btn-sm filter-btn" data-filter="Poster">Posters</button>
                 </div>
                 
                 <!-- Papers list -->
@@ -37,18 +37,19 @@ layout: default
                                     <h5 class="paper-title mb-2 text-dark">{{ paper.title }}</h5>
                                 </div>
                                 
-                                <div class="paper-authors mb-3">
-                                    <p class="mb-0 text-muted lh-base">
-                                        <i class="fas fa-users me-2"></i>{{ paper.authors }}
-                                    </p>
+                                <div class="paper-authors mb-3" style="display: flex; align-items: flex-start; gap: 8px;">
+                                    <i class="fas fa-users"></i>
+                                    <p class="mb-0 text-muted lh-base" style="margin: 0;">{{ paper.authors }}</p>
                                 </div>
+                                
                                 
                                 {% if paper.abstract %}
                                 <div class="paper-abstract">
-                                    <p class="mb-0 text-secondary lh-base" style="text-align: justify;">
-                                        <i class="fas fa-quote-left me-2 text-muted"></i>{{ paper.abstract }}
+                                    <p class="mb-0 text-secondary lh-base">
+                                      <i class="fas fa-quote-left text-muted"></i>
+                                      {{ paper.abstract }}
                                     </p>
-                                </div>
+                                  </div>
                                 {% endif %}
                             </div>
                             <div class="col-md-2 d-flex flex-column align-items-end justify-content-start">
@@ -58,7 +59,7 @@ layout: default
                                 {% elsif paper.type == "Short Paper" %}
                                     {% assign badge_class = "info" %}
                                 {% elsif paper.type == "Poster" %}
-                                    {% assign badge_class = "warning" %}
+                                    {% assign badge_class = "secondary" %}
                                 {% endif %}
                                 <span class="badge bg-{{ badge_class }} mb-2">{{ paper.type }}</span>
                                 {% if paper.pub_url and paper.pub_url != "#" %}

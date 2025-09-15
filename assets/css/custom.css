@@ -169,7 +169,15 @@
 .paper-authors {
   font-size: 0.95rem;
   line-height: 1.5;
+  color: #6c757d;
+  margin: 0.25rem 0 0;
+  padding: 0;
+  text-align: left;
+  margin-left: -0.5rem; /* move left by half rem */
 }
+
+
+
 
 .paper-abstract {
   background-color: #f7f6f2;
@@ -177,6 +185,25 @@
   border-radius: 0.5rem;
   border-left: 4px solid #0d344a;
   margin-top: 0.5rem;
+  position: relative;
+}
+
+/* the quote icon */
+.paper-abstract .fa-quote-left {
+  position: absolute;
+  left: 1rem;          /* inside the box padding */
+  top: 1rem;           /* align with first line */
+  margin: 0;
+  font-size: 1.1em;    /* optional */
+  line-height: 1;      /* keeps it snug */
+}
+
+/* the text */
+.paper-abstract p {
+  margin: 0;
+  padding-left: 1rem; /* space for icon width + gap */
+  text-align: justify;
+  text-indent: 0;
 }
 
 .filter-btn.active {
@@ -219,6 +246,31 @@
   font-size: 0.75rem;
   padding: 0.4rem 0.8rem;
   border-radius: 1rem;
+}
+
+/* Filter button active states - maintain individual colors */
+.filter-btn.btn-outline-success.active {
+  background-color: #198754 !important;
+  border-color: #198754 !important;
+  color: white !important;
+}
+
+.filter-btn.btn-outline-info.active {
+  background-color: #0dcaf0 !important;
+  border-color: #0dcaf0 !important;
+  color: white !important;
+}
+
+.filter-btn.btn-outline-secondary.active {
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
+  color: white !important;
+}
+
+.filter-btn.btn-outline-primary.active {
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+  color: white !important;
 }
 
 
