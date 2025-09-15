@@ -16,7 +16,6 @@ exclude:
   - Gemfile
   - vendor/
   - map.md
-  - program.md
 
 plugins:
   - jekyll-remote-theme

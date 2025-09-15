@@ -2,6 +2,6 @@
 layout: program
 title: Program
 description: Schedule of talks and activities
-navorder: 1
+navorder: 5
 ---
-Program details go here!
+Details coming soon!
