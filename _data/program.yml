@@ -41,7 +41,7 @@ days:
 
       - time: 11:00 to 12:00
         title: "Higher-Level Languages"
-        subtitle: "• <a href='/accepted_papers#paper-2' class='paper-link'>Systematic Testing of C++ Abstraction Recovery Systems by Iterative Compiler Model Refinement</a><br>• <a href='/accepted_papers#paper-1' class='paper-link'>ideco: A Framework for Improving Non-C Decompilation</a><br>• <a href='/accepted_papers#paper-4' class='paper-link'>Measuring While Playing Fair: An Empirical Analysis of Language and Framework Usage in the iOS App Store</a>"
+        subtitle: "• <a href='/papers#paper-2' class='paper-link'>Systematic Testing of C++ Abstraction Recovery Systems by Iterative Compiler Model Refinement</a><br>• <a href='/papers#paper-1' class='paper-link'>ideco: A Framework for Improving Non-C Decompilation</a><br>• <a href='/papers#paper-4' class='paper-link'>Measuring While Playing Fair: An Empirical Analysis of Language and Framework Usage in the iOS App Store</a>"
         category: Session 2
 
       - time: 12:00 to 13:30
@@ -54,7 +54,7 @@ days:
 
       - time: 13:30 to 14:50
         title: "Benchmarking"
-        subtitle: "• <a href='/accepted_papers#paper-8' class='paper-link'>Benchmarking Binary Type Inference Techniques in Decompilers</a><br>• <a href='/accepted_papers#paper-5' class='paper-link'>Towards Scalable Evaluation of Software Understanding: A Methodology Proposal</a><br>• <a href='/accepted_papers#paper-11' class='paper-link'>On the Learnability, Robustness, and Adaptability of Deep Learning Models for Obfuscation-applied Code</a><br>• <a href='/accepted_papers#paper-7' class='paper-link'>DEBRA: A Real-World Benchmark For Evaluating Deobfuscation Methods</a>"
+        subtitle: "• <a href='/papers#paper-8' class='paper-link'>Benchmarking Binary Type Inference Techniques in Decompilers</a><br>• <a href='/papers#paper-5' class='paper-link'>Towards Scalable Evaluation of Software Understanding: A Methodology Proposal</a><br>• <a href='/papers#paper-11' class='paper-link'>On the Learnability, Robustness, and Adaptability of Deep Learning Models for Obfuscation-applied Code</a><br>• <a href='/papers#paper-7' class='paper-link'>DEBRA: A Real-World Benchmark For Evaluating Deobfuscation Methods</a>"
         category: Session 3
 
       - time: 14:50 to 15:30
@@ -66,7 +66,7 @@ days:
 
       - time: 15:30 to 16:10
         title: "Application & Future Work"
-        subtitle: "• <a href='/accepted_papers#paper-3' class='paper-link'>LibHIT: A Hardware-Based Approach to Efficient and Evasion-Resistant Dynamic Binary Analysis</a><br>• <a href='/accepted_papers#paper-6' class='paper-link'>Toward Inferring Structural Semantics from Binary Code Using Graph Neural Networks</a>"
+        subtitle: "• <a href='/papers#paper-3' class='paper-link'>LibHIT: A Hardware-Based Approach to Efficient and Evasion-Resistant Dynamic Binary Analysis</a><br>• <a href='/papers#paper-6' class='paper-link'>Toward Inferring Structural Semantics from Binary Code Using Graph Neural Networks</a>"
         category: Session 4
         
       - time: 16:20 to 17:15
