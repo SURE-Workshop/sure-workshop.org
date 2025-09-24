@@ -2,11 +2,11 @@ legend:
   # title: Legend
   categories:
     - name: Keynote
-      color: blue-6
+      color: cyan-6
     - name: Session 2
       color: red-6
     - name: Session 3
-      color: indigo-6
+      color: primary
     - name: Session 4
       color: yellow-6
     - name: Panel
