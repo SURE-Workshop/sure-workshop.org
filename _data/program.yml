@@ -1,42 +1,74 @@
-# legend:
-#   title: Legend
-#   categories:
-#     - name: Keynote
-#       color: blue-6
-#     - name: Session
-#       color: red-6
-#     - name: Roundtable
-#       color: teal-6
-#     - name: Coffee break
-#       color: gray-6
-#     - name: Working lunch
-#       color: green-6
-#     - name: Closing remarks
-#       color: orange-6
-# days:
-#   - name: Day 1
-#     events:
-#       - time: 8:45 to 9:00
-#         title: Opening remarks
-#       - time: 9:00 to 10:00
-#         title: Keynote
-#         subtitle: 
-#         category: Keynote
-#       - time: 11:00 to 13:00
-#         title: Session 1
-#         subtitle: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-#         category: Session
-#       - time: 13:00 to 14:00
-#         title: Working lunch and Poster presentations
-#         category: Working lunch
-#       - time: 14:00 to 16:00
-#         title: Session 2
-#         subtitle: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-#         category: Session
-#       - time: 15:00 to 16:00
-#         title: Coffee break
-#         category: Coffee break
-#       - time: 16:00 to 18:00
-#         title: Roundtable
-#         subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-#         category: Roundtable
+legend:
+  # title: Legend
+  categories:
+    - name: Keynote
+      color: blue-6
+    - name: Session 2
+      color: red-6
+    - name: Session 3
+      color: indigo-6
+    - name: Session 4
+      color: yellow-6
+    - name: Panel
+      color: teal-6
+    - name: Break
+      color: gray-6
+    - name: Lunch / Poster Session
+      color: green-6
+    - name: Opening Remarks
+      color: orange-5
+    - name: Session Heading
+      color: gray-8
+days:
+  - name: Day 1
+    events:
+      - time: 9:15 to 9:30
+        title: Opening Remarks
+        category: Opening Remarks
+
+      - time: 9:30 to 10:30
+        title: "Keynote: Reverse Engineering in the 2020s: Where are we, and where should we go?"
+        subtitle: "Dr. Brendan Dolan-Gavitt"
+        category: Keynote
+        abstract: "Over the past 20 years that I have been involved in binary analysis and reverse engineering research, there have been impressive advances across many areas: better decompilers, improved type recovery, new techniques for deobfuscation, and more. In this talk, I will attempt to recap how the field has changed during this time from my own point of view, and argue that it may now be time to set our sights on bigger challenges. We have moved from a world dominated by 32-bit x86 assembly produced from plain C or C++ code to a wider range of architectures and source languages, but the results of our analyses are still largely useful only to highly technical audiences. What would it look like to build analyses that try to expose the internal workings of programs to end users?"
+
+      - time: 10:30 to 11:00
+        title: Break
+        category: Break
+
+      # - title: "Higher-Level Languages"
+      #   category: Session Heading
+
+      - time: 11:00 to 12:00
+        title: "Higher-Level Languages"
+        subtitle: "• <a href='/accepted_papers#paper-2' class='paper-link'>Systematic Testing of C++ Abstraction Recovery Systems by Iterative Compiler Model Refinement</a><br>• <a href='/accepted_papers#paper-1' class='paper-link'>ideco: A Framework for Improving Non-C Decompilation</a><br>• <a href='/accepted_papers#paper-4' class='paper-link'>Measuring While Playing Fair: An Empirical Analysis of Language and Framework Usage in the iOS App Store</a>"
+        category: Session 2
+
+      - time: 12:00 to 13:30
+        title: "Lunch / Poster Session"
+        category: Lunch / Poster Session
+        subtitle: "• Enhancing Bytecode Exact Decompilation via LLM-Generated Seeds<br>• Improving Out-of-SSA Variable Renaming with Dependency Strength-Based Grouping<br>• Delinking: Stripping Programs for Parts"
+
+      # - title: "Benchmarking"
+      #   category: Session Heading
+
+      - time: 13:30 to 14:50
+        title: "Benchmarking"
+        subtitle: "• <a href='/accepted_papers#paper-8' class='paper-link'>Benchmarking Binary Type Inference Techniques in Decompilers</a><br>• <a href='/accepted_papers#paper-5' class='paper-link'>Towards Scalable Evaluation of Software Understanding: A Methodology Proposal</a><br>• <a href='/accepted_papers#paper-11' class='paper-link'>On the Learnability, Robustness, and Adaptability of Deep Learning Models for Obfuscation-applied Code</a><br>• <a href='/accepted_papers#paper-7' class='paper-link'>DEBRA: A Real-World Benchmark For Evaluating Deobfuscation Methods</a>"
+        category: Session 3
+
+      - time: 14:50 to 15:30
+        title: Break
+        category: Break
+
+      # - title: "Application & Future Work"
+      #   category: Session Heading
+
+      - time: 15:30 to 16:10
+        title: "Application & Future Work"
+        subtitle: "• <a href='/accepted_papers#paper-3' class='paper-link'>LibHIT: A Hardware-Based Approach to Efficient and Evasion-Resistant Dynamic Binary Analysis</a><br>• <a href='/accepted_papers#paper-6' class='paper-link'>Toward Inferring Structural Semantics from Binary Code Using Graph Neural Networks</a>"
+        category: Session 4
+        
+      - time: 16:20 to 17:15
+        title: "Panel: Modern Software Understanding"
+        category: Panel
