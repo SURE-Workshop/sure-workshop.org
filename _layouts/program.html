@@ -89,6 +89,9 @@ layout: default
                                         {% else %}
                                         <h5 class="fw-normal m-0 mb-2">{{ event.title }}</h5>
                                         {% endif %}
+                                        {% if event.chair %}
+                                        <p class="fw-normal text-secondary m-0 mb-2" style="font-style: italic;">{{ event.chair }}</p>
+                                        {% endif %}
                                         {% if event.subtitle and event.category != 'Coffee break' %}
                                         <p class="fw-light m-0 mb-3 text-justify">{{ event.subtitle }}</p>
                                         {% endif %}
