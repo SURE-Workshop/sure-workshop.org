@@ -32,6 +32,7 @@ days:
         subtitle: "Dr. Brendan Dolan-Gavitt"
         category: Keynote
         abstract: "Over the past 20 years that I have been involved in binary analysis and reverse engineering research, there have been impressive advances across many areas: better decompilers, improved type recovery, new techniques for deobfuscation, and more. In this talk, I will attempt to recap how the field has changed during this time from my own point of view, and argue that it may now be time to set our sights on bigger challenges. We have moved from a world dominated by 32-bit x86 assembly produced from plain C or C++ code to a wider range of architectures and source languages, but the results of our analyses are still largely useful only to highly technical audiences. What would it look like to build analyses that try to expose the internal workings of programs to end users?"
+        slides: /slides/2025/bdg_keynote.pdf
 
       - time: 10:30 to 11:00
         title: Break
