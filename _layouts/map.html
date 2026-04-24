@@ -4,12 +4,14 @@ layout: default
 
 {% include metadata.liquid %}
 {% include header.html %}
+{% assign yk = page.year | append: '' %}
+{% assign ydata = site.data[yk] %}
 
 <main class="my-4">
     <div class="container">
         <h1 class="display-5">{{ title }}</h1>
         {{ content }}
-        {% if site.data.map %}
+        {% if ydata.map %}
         <hr class="my-4">
         <div id="map"></div>
         {% endif %}

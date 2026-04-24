@@ -4,6 +4,8 @@ layout: default
 
 {% include metadata.liquid %}
 {% include header.html %}
+{% assign yk = page.year | append: '' %}
+{% assign ydata = site.data[yk] %}
 
 <style>
 .paper-link {
@@ -46,14 +48,14 @@ layout: default
     <div class="container">
         <h1 class="display-5">{{ title }}</h1>
         {{ content }}
-        {% if site.data.program %}
+        {% if ydata.program %}
         <hr class="my-4">
         <div class="row">
             <div>
-                {% for day in site.data.program.days %}
+                {% for day in ydata.program.days %}
                 <div class="mb-4">
                     <div class="mt-2">
-                            {% assign categories = site.data.program.legend.categories %}
+                            {% assign categories = ydata.program.legend.categories %}
                             <ul class="list-unstyled ms-3 ms-lg-0 lh-sm">
                                 {% for event in day.events %}
                                 {% if event.category %}
@@ -140,8 +142,8 @@ layout: default
                             {% assign size = legend | size %}
                             {% if size > 0 %}
                             <div class="mt-4 mb-2">
-                                {% if site.data.program.legend.title %}
-                                <h5 class="fw-normal">{{ site.data.program.legend.title }}</h5>
+                                {% if ydata.program.legend.title %}
+                                <h5 class="fw-normal">{{ ydata.program.legend.title }}</h5>
                                 {% endif %}
                                 {% for item in legend %}
                                 {% assign border = categories | where: 'name', item | map: 'color' | first %}

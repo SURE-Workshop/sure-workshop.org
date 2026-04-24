@@ -4,17 +4,19 @@ layout: default
 
 {% include metadata.liquid %}
 {% include header.html %}
+{% assign yk = page.year | append: '' %}
+{% assign ydata = site.data[yk] %}
 
 <main class="my-4">
     <div class="container">
         <h1 class="display-3">{{ title }}</h1>
         {{ content }}
         
-        {% if site.data.accepted_papers %}
+        {% if ydata.accepted_papers %}
         
         
         <!-- Papers Section -->
-        {% if site.data.accepted_papers.papers %}
+        {% if ydata.accepted_papers.papers %}
         <hr class="my-4">
         <div class="row">
             <div class="col-12">
@@ -28,7 +30,7 @@ layout: default
                 </div>
                 
                 <!-- Papers list -->
-                {% for paper in site.data.accepted_papers.papers %}
+                {% for paper in ydata.accepted_papers.papers %}
                 <div class="card mb-4 paper-item shadow-sm" data-type="{{ paper.type }}" id="paper-{{ paper.paper_id }}">
                     <div class="card-body p-4">
                         <div class="row">

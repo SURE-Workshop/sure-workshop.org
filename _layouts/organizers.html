@@ -4,6 +4,8 @@ layout: default
 
 {% include metadata.liquid %}
 {% include header.html %}
+{% assign yk = page.year | append: '' %}
+{% assign ydata = site.data[yk] %}
 
 <main class="my-4">
     <div class="container">
@@ -11,9 +13,9 @@ layout: default
         <p class="lead">{{ description }}</p>
         <hr class="my-4">
         {{ content }}
-        {% if site.data.organizers %}
+        {% if ydata.organizers %}
         <hr class="my-4">
-        {% assign groups = site.data.organizers.groups %}
+        {% assign groups = ydata.organizers.groups %}
         {% for group in groups %}
         <!--- for adding line after title -->
         {%- unless forloop.first -%}

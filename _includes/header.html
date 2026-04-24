@@ -5,10 +5,16 @@
 {% assign return = '/' | relative_url %}
 {% endif %}
 
+{% if page.year and page.year != site.active_year %}
+{% assign brand = 'SURE ' | append: page.year %}
+{% else %}
+{% assign brand = site.title %}
+{% endif %}
+
 <header class="sticky-top" style="background-color: #0d344a;">
     <div class="container">
         <nav class="navbar navbar-expand-sm  navbar-dark">
-            <a class="navbar-brand text-white" href="{{ return }}">{{ site.title }}</a>
+            <a class="navbar-brand text-white" href="{{ return }}">{{ brand }}</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -16,7 +22,7 @@
                 <div class="navbar-nav me-auto">
                     {% assign links = site.pages | sort: 'navorder' %}
                     {% for link in links %}
-                    {% if link.navorder %}
+                    {% if link.navorder and link.year == page.year %}
                     {% assign current = link.name | split: '.' | first %}
                     {% assign href = link.url | relative_url %}
                     {% if page.layout == current %}
@@ -26,11 +32,22 @@
                     {% endif %}
                     {% endif %}
                     {% endfor %}
+                    {% if page.year == site.active_year %}
+                    <a class="nav-link" href="{{ '/2025/' | relative_url }}">2025</a>
+                    {% endif %}
                 </div>
             </div>
         </nav>
     </div>
 </header>
+
+{% if page.year and page.year != site.active_year %}
+<div class="container-fluid p-0">
+    <div class="alert alert-warning text-center m-0 rounded-0 small" role="alert">
+        This is the archived page for SURE {{ page.year }}. Visit the <a href="{{ '/' | relative_url }}">current edition</a> for SURE {{ site.active_year }}.
+    </div>
+</div>
+{% endif %}
 
 <!-- ── BANNER SNIPPET HERE ── -->
 <div class="container-fluid p-0 banner-container">

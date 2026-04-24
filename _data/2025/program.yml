@@ -76,4 +76,6 @@ days:
         
       - time: 16:20 to 17:15
         title: "Panel: Modern Software Understanding"
+        chair: "Panel Chair: [Chair Name]"
+        subtitle: "Panelists: [Panelist 1], [Panelist 2], [Panelist 3], [Panelist 4]"
         category: Panel

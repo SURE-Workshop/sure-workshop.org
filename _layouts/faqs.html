@@ -4,6 +4,8 @@ layout: default
 
 {% include metadata.liquid %}
 {% include header.html %}
+{% assign yk = page.year | append: '' %}
+{% assign ydata = site.data[yk] %}
 
 <main class="my-4">
   <div class="container">
@@ -12,7 +14,7 @@ layout: default
     <hr class="my-4">
     {{ content }}
 
-    {% assign items = site.data.faqs.faqs %}
+    {% assign items = ydata.faqs.faqs %}
     {% if items %}
       <hr class="my-4">
       {% for faq in items %}

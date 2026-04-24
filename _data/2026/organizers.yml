@@ -1,0 +1,67 @@
+groups:
+  - title: Program Chairs
+    sort: false
+    columns: false
+    members:
+      - name: Ati Priya Bajaj (Chair)
+        affil: Arizona State University
+      - name: Arslan Khan (Co-Chair)
+        affil: Pennsylvania State University
+
+  - title: Steering Committee
+    sort: true
+    columns: false
+    members:
+      - name: Fish Wang
+        affil: Arizona State University
+      - name: Yan Shoshitaishvili
+        affil: Arizona State University
+      - name: Zion Leonahenahe Basque
+        affil: Arizona State University
+
+  - title: Program Committee
+    sort: true
+    columns: true
+    members:
+      - name: Kangjie Lu
+        affil: University of Minnesota
+      - name: Giovanni Vigna
+        affil: UC Santa Barbara
+      - name: Sergey Bratus
+        affil: Dartmouth
+      - name: Antonio Bianchi
+        affil: Purdue University
+      - name: Fish Wang
+        affil: Arizona State University
+      - name: Khaled Yakdan
+        affil: Code Intelligence
+      - name: Freek Verbeek
+        affil: Virginia Tech
+      - name: Kristopher Micinski
+        affil: Syracuse University
+      - name: Zion Leonahenahe Basque
+        affil: Arizona State University
+      - name: Hyungjoon Koo
+        affil: Sungkyunkwan University
+      - name: Igor Skochinsky
+        affil: Hex-Rays
+      - name: Insu Yun
+        affil: KAIST
+      - name: Moritz Schloegel
+        affil: CISPA Helmholtz Center for Information Security
+      - name: Jie Hu
+        affil: Arizona State University
+      - name: Tim Blazytko
+        affil: Emproof
+      - name: Edward Schwartz
+        affil: Carnegie Mellon University
+      - name: Lukas Seidel
+        affil: Binarly
+      - name: Kyu Hyung Lee
+        affil: University of Georgia
+      - name: Simone Aonzo
+        affil: EURECOM
+      - name: Taegyu Kim
+        affil: Pennsylvania State University
+      - name: Haehyun Cho
+        affil: Soongsil University

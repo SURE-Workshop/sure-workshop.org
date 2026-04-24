@@ -1,0 +1,16 @@
+faqs:
+  - question: "How can I contact the chairs?"
+    answer: >
+      You can join our [Discord server](https://discord.gg/eVySXH7ZQ8) or email the chairs (contact TBD).
+  - question: "Do you have any example works that align with SURE topics?"
+    answer: >
+      The [CFP](/cfp) shows most topics we find align with SURE. Some example works include: [studying how humans reverse engineer](https://www.usenix.org/conference/usenixsecurity22/presentation/mantovani), [byte-exact decompilation](https://eschulte.github.io/data/bed.pdf), [root cause analysis of crashes](https://kevinkoo001.github.io/assets/pdf/sp24-benzene-official.pdf), [readability metrics](https://dl.acm.org/doi/10.1145/3643744), and more. Generally, any work that improves our ability to answer the question "what does this program do?" is topical at SURE.
+  - question: "Can non‑academics submit?"
+    answer: >
+      Absolutely! We are especially excited to see work from non-traditional academics, such as those who develop debugger plugins, decompilers, and source code analysis tools.
+  - question: "How can I register to attend?"
+    answer: >
+      Registration details for SURE 2026 are TBD.
+  - question: "Will SURE be helping with the Visa process?"
+    answer: >
+      Visa information for SURE 2026 is TBD.

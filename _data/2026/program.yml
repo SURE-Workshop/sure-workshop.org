@@ -1,0 +1,21 @@
+legend:
+  categories:
+    - name: Keynote
+      color: cyan-6
+    - name: Session 2
+      color: red-6
+    - name: Session 3
+      color: primary
+    - name: Session 4
+      color: yellow-6
+    - name: Panel
+      color: teal-6
+    - name: Break
+      color: gray-6
+    - name: Lunch / Poster Session
+      color: green-6
+    - name: Opening Remarks
+      color: orange-5
+    - name: Session Heading
+      color: gray-8
+days: []
