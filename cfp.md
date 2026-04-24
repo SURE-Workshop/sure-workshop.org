@@ -29,7 +29,7 @@ The Workshop on Software Understanding and Reverse Engineering (SURE) aims to ga
 - Formal methods in reverse engineering
 
 <h2 class="small-heading"> Submissions </h2>
-The submission site for SURE 2026 is TBD.
+The submission site for SURE 2026 is coming soon.
 
 We invite **Full Papers** (12 pages), **Short Papers** (6 pages), and [Poster Abstracts](#poster-abstracts) on any topic in scope.
 Page limits exclude references.
@@ -54,7 +54,7 @@ All accepted poster authors should email a poster draft a month before the works
 Presented posters should be sized 32×40 inches.
 
 <h2 class="small-heading"> Important Dates </h2>
-All times listed are [Anywhere-on-Earth](https://time.is/Anywhere_on_Earth) (AoE). Dates are tentative.
+All times listed are [Anywhere-on-Earth](https://time.is/Anywhere_on_Earth) (AoE).
 
 - **Submission Deadline**: June 19th, 2026, 11:59pm AoE
 - **Author Notification**: August 4th, 2026

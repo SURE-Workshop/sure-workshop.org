@@ -16,12 +16,12 @@ To further engage the community, we have also opened a [Discord server](https://
 We encourage both researchers and practitioners to join the server to discuss topics relevant to SURE.
 Follow us [on X](https://x.com/sureworkshop) for updates and announcements.
 
-Submission site for SURE 2026: TBD.
+Submission site for SURE 2026: coming soon.
 
 [![Discord](https://dcbadge.limes.pink/api/server/eVySXH7ZQ8)](https://discord.gg/eVySXH7ZQ8)
 
 <h2 class="small-heading"> Important Dates </h2>
-All times listed are [Anywhere-on-Earth](https://time.is/Anywhere_on_Earth) (AoE). Dates are tentative.
+All times listed are [Anywhere-on-Earth](https://time.is/Anywhere_on_Earth) (AoE).
 
 - **Submission Deadline**: June 19th, 2026, 11:59pm AoE
 - **Author Notification**: August 4th, 2026
