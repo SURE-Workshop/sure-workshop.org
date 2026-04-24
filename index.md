@@ -23,9 +23,9 @@ Submission site for SURE 2026: TBD.
 <h2 class="small-heading"> Important Dates </h2>
 All times listed are [Anywhere-on-Earth](https://time.is/Anywhere_on_Earth) (AoE). Dates are tentative.
 
-- **Submission Deadline**: June 19th, 2026
+- **Submission Deadline**: June 19th, 2026, 11:59pm AoE
 - **Author Notification**: August 4th, 2026
-- **Deadline for Camera-ready**: August 18th, 2026
+- **Deadline for Camera-ready**: August 18th, 2026, 11:59pm AoE
 
 <!-- - **Workshop**: TBD -->
 
