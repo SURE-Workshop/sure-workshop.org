@@ -9,7 +9,7 @@ Regardless of the form (binary, source, diagrams, etc.), understanding modern so
 As such, modern researchers have worked, often across domains, to develop tools and techniques to close the [understanding gap](https://media.defense.gov/2025/Jan/16/2003629074/-1/-1/0/Joint-Guide-Closing-the-Software-Understanding-Gap.PDF).
 The Workshop on **Software Understanding and Reverse Engineering** (SURE) aims to gather research in this area and engage the community to understand its limitations.
 
-We are proud to announce that the 2nd SURE Workshop will be co-located at ACM CCS 2026 (venue TBD).
+We are proud to announce that the 2nd SURE Workshop will be co-located at ACM CCS 2026.
 We are seeking new research in software understanding and reverse engineering as described in our [Call for Papers](./cfp/).
 
 To further engage the community, we have also opened a [Discord server](https://discord.gg/eVySXH7ZQ8) in cooperation with the [Decompilation Wiki](https://decompilation.wiki/).
