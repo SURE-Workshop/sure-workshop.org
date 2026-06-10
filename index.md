@@ -16,7 +16,7 @@ To further engage the community, we have also opened a [Discord server](https://
 We encourage both researchers and practitioners to join the server to discuss topics relevant to SURE.
 Follow us [on X](https://x.com/sureworkshop) for updates and announcements.
 
-Submission site for SURE 2026: coming soon.
+**Our submission site for SURE 2026 is now open**: [sure26.hotcrp.com](https://sure26.hotcrp.com/).
 
 [![Discord](https://dcbadge.limes.pink/api/server/eVySXH7ZQ8)](https://discord.gg/eVySXH7ZQ8)
 
