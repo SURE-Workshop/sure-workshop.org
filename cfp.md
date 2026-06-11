@@ -41,6 +41,8 @@ All papers must be formatted in the [double-column ACM format](https://www.overl
 Authors should not change the font or the margins of the ACM format.
 Submissions not following the required format may be rejected without review.
 
+Authors are required to review and follow the [Policy on the Use of Generative AI and LLMs](https://www.sigsac.org/ccs/CCS2026/call-for/call-for-papers.html) in the ACM CCS 2026 Call for Papers.
+
 #### Poster Abstracts
 For poster submissions, authors should submit a short proposal describing their poster's main contributions.
 Proposals should contain a brief abstract and emphasize the motivation for the work, following the below formatting:
