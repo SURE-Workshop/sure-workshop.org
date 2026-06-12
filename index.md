@@ -23,9 +23,9 @@ Follow us [on X](https://x.com/sureworkshop) for updates and announcements.
 <h2 class="small-heading"> Important Dates </h2>
 All times listed are [Anywhere-on-Earth](https://time.is/Anywhere_on_Earth) (AoE).
 
-- **Submission Deadline**: June 19th, 2026, 11:59pm AoE
-- **Author Notification**: August 4th, 2026
-- **Deadline for Camera-ready**: August 18th, 2026, 11:59pm AoE
+- **Submission Deadline**: ~~June 19th~~ June 30th, 2026, 11:59pm AoE
+- **Author Notification**: ~~August 4th~~ August 17th, 2026
+- **Deadline for Camera-ready**: ~~August 18th~~ August 31st, 2026, 11:59pm AoE
 
 <!-- - **Workshop**: TBD -->
 
