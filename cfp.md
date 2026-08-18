@@ -60,7 +60,6 @@ All times listed are [Anywhere-on-Earth](https://time.is/Anywhere_on_Earth) (AoE
 
 - **Submission Deadline**: June 30th, 2026, 11:59pm AoE
 - **Author Notification**: August 17th, 2026
-- **Deadline for Camera-ready**: August 31st, 2026, 11:59pm AoE
+- **Deadline for Camera-ready**: September 2nd, 2026, 11:59pm AoE
 
 - **Workshop**: November 19th, 2026
-
