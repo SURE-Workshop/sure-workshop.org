@@ -114,7 +114,7 @@ layout: default
                                         <img src="{{ event.photo | relative_url }}" alt="{{ event.subtitle }}" class="rounded mb-2" style="width: 120px; height: auto;">
                                         {% endif %}
                                         {% if event.subtitle and event.category != 'Coffee break' %}
-                                        <p class="fw-light m-0 mb-3 text-justify">{{ event.subtitle }}</p>
+                                        <p class="fw-light m-0 mb-3 text-justify">{% if event.speaker_url %}<a href="{{ event.speaker_url }}" target="_blank" rel="noopener">{{ event.subtitle }}</a>{% else %}{{ event.subtitle }}{% endif %}</p>
                                         {% endif %}
                                         {% if event.abstract or event.bio %}
                                         <div class="mb-3">
