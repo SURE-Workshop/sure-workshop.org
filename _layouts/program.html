@@ -54,6 +54,9 @@ layout: default
             <div>
                 {% for day in ydata.program.days %}
                 <div class="mb-4">
+                    {% if day.date %}
+                    <h4 class="fw-normal mb-3">{{ day.date }}</h4>
+                    {% endif %}
                     <div class="mt-2">
                             {% assign categories = ydata.program.legend.categories %}
                             <ul class="list-unstyled ms-3 ms-lg-0 lh-sm">
@@ -77,7 +80,9 @@ layout: default
                                     <div class="row col-lg-10">
                                     {% else %}
                                     <div class="row col-lg-2 pb-2 {{ classes }} border-lg-0">
+                                        {% if event.time %}
                                         <small class="fw-light text-muted">{{ start }}–{{ end }}</small>
+                                        {% endif %}
                                     </div>
                                     {% unless forloop.last %}
                                     {% assign classes = classes | append: ' mb-4' %}
@@ -94,14 +99,25 @@ layout: default
                                         {% if event.chair %}
                                         <p class="fw-normal text-secondary m-0 mb-2" style="font-style: italic;">{{ event.chair }}</p>
                                         {% endif %}
+                                        {% if event.photo %}
+                                        <img src="{{ event.photo | relative_url }}" alt="{{ event.subtitle }}" class="rounded mb-2" style="width: 120px; height: auto;">
+                                        {% endif %}
                                         {% if event.subtitle and event.category != 'Coffee break' %}
                                         <p class="fw-light m-0 mb-3 text-justify">{{ event.subtitle }}</p>
                                         {% endif %}
-                                        {% if event.abstract %}
+                                        {% if event.abstract or event.bio %}
                                         <div class="mb-3">
+                                            {% if event.abstract %}
                                             <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#abstract-{{ forloop.parentloop.index }}-{{ forloop.index }}" aria-expanded="false" aria-controls="abstract-{{ forloop.parentloop.index }}-{{ forloop.index }}">
                                                 Abstract
                                             </button>
+                                            {% endif %}
+                                            {% if event.bio %}
+                                            <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#bio-{{ forloop.parentloop.index }}-{{ forloop.index }}" aria-expanded="false" aria-controls="bio-{{ forloop.parentloop.index }}-{{ forloop.index }}">
+                                                Speaker Bio
+                                            </button>
+                                            {% endif %}
+                                            {% if event.abstract %}
                                             <div class="collapse mt-2" id="abstract-{{ forloop.parentloop.index }}-{{ forloop.index }}">
                                                 <div class="card shadow-sm">
                                                     <div class="card-body p-3">
@@ -109,6 +125,16 @@ layout: default
                                                     </div>
                                                 </div>
                                             </div>
+                                            {% endif %}
+                                            {% if event.bio %}
+                                            <div class="collapse mt-2" id="bio-{{ forloop.parentloop.index }}-{{ forloop.index }}">
+                                                <div class="card shadow-sm">
+                                                    <div class="card-body p-3">
+                                                        <p class="text-dark mb-0" style="font-size: 1.1rem; text-align: justify; text-align-last: left;">{{ event.bio }}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {% endif %}
                                         </div>
                                         {% endif %}
                                         <p class="fw-light m-0">

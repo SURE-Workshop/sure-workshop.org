@@ -18,4 +18,14 @@ legend:
       color: orange-5
     - name: Session Heading
       color: gray-8
-days: []
+days:
+  - name: Day 1
+    date: Thursday, November 19, 2026
+    events:
+      - time: 9:00 to 10:00
+        title: "Keynote: Defining the discipline of Software Understanding in the age of AI"
+        subtitle: "Dr. Sergey Bratus"
+        photo: /assets/img/2026/sergey_bratus.jpg
+        category: Keynote
+        bio: "I am the Dartmouth College Distinguished Professor in Cyber Security, Technology, and Society and an Associate Professor of Computer Science. In 2018–2024 I served as a Program Manager at DARPA's Information Innovation Office (I2O), where I created multiple fundamental research programs in cybersecurity, resilience, and sustainment of critical software. I am interested in all aspects of cyber security, including Unix and Linux kernel security, software verification and cyber hardening, malware detection and reverse engineering (especially at the kernel and boot-stage firmware levels), wireless networking, digital radio, and visualizations of security-related information. I am interested in identifying and eliminating the root causes of software vulnerabilities, and I believe that this requires connecting state-of-the-art hacking with fundamental concepts of computer science. I believe that edge-of-the-art hacking has developed into a distinct discipline of computer science, even though not formally recognized as such, and that studying it is indispensable for building future computing systems we could finally trust."
+        abstract: "Software Understanding is rapidly progressing as a discipline that brings together fields previously thought of as disparate: binary reverse engineering, formal methods, vulnerability research, program analysis, and other pursuits not even credited with an academic field designation. Software Understanding unites them by method and goal, adding to each subfield questions that it hasn't pursued as first-class research challenges. At the same time, unprecedented advancement of AI in all of these fields erases long-held notions of what is hard and what is baseline. As a discipline primarily defined by its hard questions, Software Understanding must develop its own program of Grand Challenges and back it up with an experimental methodology suited to agentic AI's newfound and developing scales, in both mathematics and compute—with SURE hopefully leading the charge."
