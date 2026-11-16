@@ -55,7 +55,7 @@ days:
 
       - time: 12:30 to 13:30
         title: Lunch / Poster Session
-        subtitle: "• <a href='/papers#paper-9' class='paper-link'>Hook Captain, a Framework for Creating Domain-Specific Instrumentation</a><br>• <a href='/papers#paper-10' class='paper-link'>Recovering Python Source Code from Nuitka-Compiled Binaries</a><br>• <a href='/papers#paper-11' class='paper-link'>Controlled-Evidence Benchmarking of LLM Reverse Engineering: A Layered-Artifact, Multi-Mode Framework</a><br>• <a href='/papers#paper-12' class='paper-link'>A Systematic Study of Assembly Normalization for Binary Code Similarity Detection</a>"
+        subtitle: "• <a href='/papers#paper-9' class='paper-link'>Hook Captain, a Framework for Creating Domain-Specific Instrumentation</a><br>• <a href='/papers#paper-10' class='paper-link'>Recovering Python Source Code from Nuitka-Compiled Binaries</a><br>• <a href='/papers#paper-11' class='paper-link'>Controlled-Evidence Benchmarking of LLM Reverse Engineering: A Layered-Artifact, Multi-Mode Framework</a><br>• <a href='/papers#paper-12' class='paper-link'>A Systematic Study of Assembly Normalization for Binary Code Similarity Detection</a><br>• <a href='/papers#paper-13' class='paper-link'>A Dynamic Framework for Sound Decompilation</a>"
         category: Lunch / Poster Session
 
       - time: 13:30 to 15:00
