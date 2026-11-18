@@ -46,7 +46,7 @@ days:
 
       - time: 10:45 to 12:05
         title: Session
-        subtitle: "• <a href='/papers#paper-4' class='paper-link'>Stop Paying for Whitespace: Token-Efficient Decompiler Output for LLM-Assisted Binary Analysis</a><br>• <a href='/papers#paper-6' class='paper-link'>Enhancing Evolving Exact Decompilation with LLM-Mixed Seeding</a><br>• <a href='/papers#paper-8' class='paper-link'>CHISEL-ing Back Source Code with AI-enabled Iterative Recovery</a><br>• <a href='/papers#paper-5' class='paper-link'>DRTTI: Enhancing Ghidra Decompilation of Delphi Applications</a>"
+        subtitle: "• <a href='/papers#paper-4' class='paper-link'>Stop Paying for Whitespace: Token-Efficient Decompiler Output for LLM-Assisted Binary Analysis</a><br>• <a href='/papers#paper-6' class='paper-link'>Enhancing Evolving Exact Decompilation with LLM-Mixed Seeding</a><br>• <a href='/papers#paper-5' class='paper-link'>DRTTI: Enhancing Ghidra Decompilation of Delphi Applications</a><br>• <a href='/papers#paper-8' class='paper-link'>CHISEL-ing Back Source Code with AI-enabled Iterative Recovery</a>"
         category: Session 2
 
       - time: 12:10 to 12:30
@@ -81,5 +81,5 @@ days:
 
       - time: 15:30 to 17:00
         title: Foundations & Application
-        subtitle: "• <a href='/papers#paper-1' class='paper-link'>Lifting Hermes Bytecode to P-Code: A Ghidra Extension for Reverse Engineering React Native Apps</a><br>• <a href='/papers#paper-3' class='paper-link'>BiNit: Nitpicking Semantic Bugs in x64 Binary Lifters</a><br>• <a href='/papers#paper-2' class='paper-link'>Behind Heaven's Gate: Cross-Architecture Tracing of Mixed-Mode Execution in Windows Packers</a><br>• <a href='/papers#paper-7' class='paper-link'>Changes in the Guard: Detecting Authority-Exposing Patches with Differential Guarded Flow Paths</a>"
+        subtitle: "• <a href='/papers#paper-1' class='paper-link'>Lifting Hermes Bytecode to P-Code: A Ghidra Extension for Reverse Engineering React Native Apps</a><br>• <a href='/papers#paper-2' class='paper-link'>Behind Heaven's Gate: Cross-Architecture Tracing of Mixed-Mode Execution in Windows Packers</a><br>• <a href='/papers#paper-7' class='paper-link'>Changes in the Guard: Detecting Authority-Exposing Patches with Differential Guarded Flow Paths</a><br>• <a href='/papers#paper-3' class='paper-link'>BiNit: Nitpicking Semantic Bugs in x64 Binary Lifters</a>"
         category: Session 4
