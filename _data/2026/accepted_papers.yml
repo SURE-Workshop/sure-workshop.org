@@ -73,12 +73,6 @@ papers:
     pub_url: "#"
     paper_id: 11
 
-  - title: "A Systematic Study of Assembly Normalization for Binary Code Similarity Detection"
-    authors: "Gabriel Damamuye Hamalwa (LMU Munich), Yunru Wang (LMU Munich), Johannes Kinder (LMU Munich)"
-    type: "Poster"
-    pub_url: "#"
-    paper_id: 12
-
   - title: "A Dynamic Framework for Sound Decompilation"
     authors: "Jacob Denbeaux (Dartmouth College), Rhea Karty (Dartmouth College)"
     type: "Poster"
